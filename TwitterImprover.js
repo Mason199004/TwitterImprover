@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Twitter Improver
 // @namespace    cocks
-// @version      0.1
+// @version      0.2
 // @description  removes dumb replies from twitter
 // @author       IANSYT
 // @match        *twitter.com/*/status/*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/Mason199004/TwitterImprover/main/TwitterImprover.js
 // ==/UserScript==
 
 (function() {
