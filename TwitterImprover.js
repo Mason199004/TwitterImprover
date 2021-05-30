@@ -3,7 +3,7 @@
 // @namespace    cocks
 // @version      0.1
 // @description  removes dumb replies from twitter
-// @author       You
+// @author       IANSYT
 // @match        *twitter.com/*/status/*
 // @grant        none
 // ==/UserScript==
