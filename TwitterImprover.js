@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Twitter Improver
 // @namespace    cocks
-// @version      0.2
+// @version      0.3
 // @description  removes dumb replies from twitter
 // @author       IANSYT
-// @match        *twitter.com/*/status/*
+// @match        *twitter.com/*
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/Mason199004/TwitterImprover/main/TwitterImprover.js
 // ==/UserScript==
@@ -43,7 +43,7 @@ function runcoolscript()
     {
     if (isDescendant(parent, node))
     {
-        if (node.innerText.toLowerCase().includes("not real pain") || node.innerText.toLowerCase().includes("post real pain") || node.innerText.toLowerCase().includes("unfollowing") || node.innerText.toLowerCase().includes("not pain") || node.innerText.toLowerCase().includes("no pain") || node.innerText.toLowerCase().includes("ratio") || node.innerText.toLowerCase().includes("not a w"))
+        if (node.innerText.toLowerCase().includes("not real pain") || node.innerText.toLowerCase().includes("post real pain") || node.innerText.toLowerCase().includes("unfollowing") || node.innerText.toLowerCase().includes("not pain") || node.innerText.toLowerCase().includes("no pain") || node.innerText.toLowerCase().includes("not a w"))
         {
             node.innerText = list[Math.floor(Math.random() * list.length)]
         }
